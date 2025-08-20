@@ -81,7 +81,7 @@ body * {
 
   animation: slide-back 0.2s;
 }
-#switch button :hover {
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 .light #switch button {
@@ -184,7 +184,7 @@ footer {
   }
 }
 
-@keyframes slinde-back {
+@keyframes slide-back {
   from {
     left: 50%;
   }
